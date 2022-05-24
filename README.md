@@ -1,8 +1,8 @@
 # Habuild_Problem01
 
 Schema of the two tables created in this task
-![image](https://user-images.githubusercontent.com/61858752/170112762-9d14fa2e-30db-49b8-b0b9-ff4488dd12e6.png)
 
+![Untitled](https://user-images.githubusercontent.com/61858752/170113363-cb6835cf-cea5-461b-b0c5-c8cba51e559f.png)
 
 Commands Used for Table Creation
 <pre>

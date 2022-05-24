@@ -22,6 +22,17 @@ INSERT INTO topics (id,name) VALUES (2,'RRR');
 INSERT INTO topics (id,name) VALUES (3,'The Kashmir Files');
 INSERT INTO topics (id,name) VALUES (4,'Singham');
 INSERT INTO topics (id,name) VALUES (5,'Harry Potter');
-INSERT INTO topics (id,name) VALUES (6,'Singham');
+INSERT INTO topics (id,name) VALUES (6,'KGF');
 INSERT INTO topics (id,name) VALUES (7,'Dr. Strange');
+</pre>
+
+Commands Used for Data Insertion in Ratings Table
+<pre>
+INSERT INTO Ratings (id,topic_id,rank) VALUES (1,1,88);
+INSERT INTO Ratings (id,topic_id,rank) VALUES (2,2,80);
+INSERT INTO Ratings (id,topic_id,rank) VALUES (3,3,95);
+INSERT INTO Ratings (id,topic_id,rank) VALUES (4,4,75);
+INSERT INTO Ratings (id,topic_id,rank) VALUES (5,5,90);
+INSERT INTO Ratings (id,topic_id,rank) VALUES (6,6,80);
+INSERT INTO Ratings (id,topic_id,rank) VALUES (7,7,92);
 </pre>

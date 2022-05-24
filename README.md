@@ -14,3 +14,14 @@ CREATE TABLE Ratings (
   CONSTRAINT fk_topic FOREIGN KEY(topic_id) REFERENCES topics(id)
 )
 </pre>
+
+Commands Used for Data Insertion in Table Topics
+<pre>
+INSERT INTO topics (id,name) VALUES (1,'KGF2');
+INSERT INTO topics (id,name) VALUES (2,'RRR');
+INSERT INTO topics (id,name) VALUES (3,'The Kashmir Files');
+INSERT INTO topics (id,name) VALUES (4,'Singham');
+INSERT INTO topics (id,name) VALUES (5,'Harry Potter');
+INSERT INTO topics (id,name) VALUES (6,'Singham');
+INSERT INTO topics (id,name) VALUES (7,'Dr. Strange');
+</pre>

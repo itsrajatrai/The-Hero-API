@@ -30,6 +30,45 @@ npm install
 
 ## Route/endpoints details
 
+### Authentication ( app.post('/auth',au.authentication) )
+
+Request URL: http://localhost:8000/auth
+
+**Status: 400 Bad Request ( When authetication failed due to invalid credientials )**
+
+Request Body :
+<pre>
+{
+    "username":"rajat",
+    "password":"0004"
+}
+</pre>
+Response Body:
+<pre>
+{
+    "message": "Authentication failed!"
+}
+</pre>
+
+**Status: 200 OK ( When authetication succeeds )**
+Request Body :
+<pre>
+{
+    "username":"rajat",
+    "password":"0000"
+}
+</pre>
+Response Body:
+<pre>
+{
+    "message": "Authentication successful!",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhamF0IiwiaWF0IjoxNjUzNDk0NjYyLCJleHAiOjE2NTM1ODEwNjJ9.VRj61G2hQL9MK-Ry0yUkcl8cnzfwUHTkA4LeGc92irA"
+
+}
+</pre>
+
+
+
 ## Database Details
 Schema of the two tables created in this task
 

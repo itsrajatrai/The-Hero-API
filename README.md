@@ -84,7 +84,8 @@ Response Body:
 }
 </pre>
 
-**Status: 200 OK ( When authetication succeeds and Result Updated )**
+**Status: 200 OK ( When authetication succeeds and Ranking is Displayed )**
+
 Request Body :
 <pre>
 NA

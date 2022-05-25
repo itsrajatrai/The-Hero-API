@@ -7,10 +7,10 @@
 - Database Details
 
 
-### Introduction
+## Introduction
  The task was to create a Node Js assignment with PostgreSql database, which could fetch and update data. The access to the request and response must be protected using JWT authentication.
 
-### Dependencies needed
+## Dependencies needed
 <pre>
 dependencies": {
     "body-parser": "^1.20.0",
@@ -21,10 +21,16 @@ dependencies": {
     "morgan": "^1.10.0",
     "pg": "^8.7.3" 
 </pre>
+### Can be installed using npm or yarn
+<pre>
+yarn install
+or
+npm install
+</pre>
 
-### Route/endpoints details
+## Route/endpoints details
 
-### Database Details
+## Database Details
 Schema of the two tables created in this task
 
 ![Untitled](https://user-images.githubusercontent.com/61858752/170113363-cb6835cf-cea5-461b-b0c5-c8cba51e559f.png)

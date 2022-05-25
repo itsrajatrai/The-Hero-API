@@ -131,6 +131,89 @@ Response Body:
 ]
 </pre>
 
+
+### To Update ( app.put('/update',pr,db.updaterank) )
+
+Request URL: http://localhost:8000/update
+
+**Status: 401 Unauthorised ( When token is expired / not varified )**
+
+Request Body :
+<pre>
+NA
+</pre>
+Response Body:
+<pre>
+{
+    "message": "No token provided."
+}
+</pre>
+
+**Status: 200 OK ( When ranking is updated )**
+
+Request Body :
+<pre>
+{
+    "id":3,
+    "rank":98
+}
+</pre>
+Response Body:
+<pre>
+{
+    "message": "rank updated successfully for id: 3"
+}
+</pre>
+
+**Status: 400 Bad Request ( When topic is not available in the database )**
+
+Request Body :
+<pre>
+{
+    "id":33,
+    "rank":98
+}
+</pre>
+Response Body:
+<pre>
+{
+   
+    "message": "id does not exist"
+}
+</pre>
+
+**Status: 400 Bad Request ( When Id is empty )**
+
+Request Body :
+<pre>
+{
+    "id":null,
+    "rank":98
+}
+</pre>
+Response Body:
+<pre>
+{
+    "message": "id is required"
+}
+</pre>
+
+**Status: 400 Bad Request ( When rank is not between 0 and 100 )**
+
+Request Body :
+<pre>
+{
+    "id":null,
+    "rank":948
+}
+</pre>
+Response Body:
+<pre>
+{
+    "message": "rank should be between 0 and 100"
+}
+</pre>
+
 ## Database Details
 Schema of the two tables created in this task
 

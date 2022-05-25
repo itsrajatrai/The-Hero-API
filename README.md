@@ -67,7 +67,68 @@ Response Body:
 }
 </pre>
 
+### To Fetch Topics and Rankings ( app.get('/ranking',pr,db.getranking) )
 
+Request URL: http://localhost:8000/ranking?token
+
+**Status: 401 Unauthorised ( When token is expired / not varified )**
+
+Request Body :
+<pre>
+NA
+</pre>
+Response Body:
+<pre>
+{
+    "message": "No token provided."
+}
+</pre>
+
+**Status: 200 OK ( When authetication succeeds and Result Updated )**
+Request Body :
+<pre>
+NA
+</pre>
+Response Body:
+<pre>
+[
+    {
+        "name": "The Kashmir Files",
+        "topic_id": 3,
+        "rank": 98
+    },
+    {
+        "name": "Harry Potter",
+        "topic_id": 5,
+        "rank": 90
+    },
+    {
+        "name": "KGF2",
+        "topic_id": 1,
+        "rank": 87
+    },
+    {
+        "name": "Dr. Strange",
+        "topic_id": 7,
+        "rank": 87
+    },
+    {
+        "name": "KGF",
+        "topic_id": 6,
+        "rank": 80
+    },
+    {
+        "name": "RRR",
+        "topic_id": 2,
+        "rank": 45
+    },
+    {
+        "name": "Singham",
+        "topic_id": 4,
+        "rank": 44
+    }
+]
+</pre>
 
 ## Database Details
 Schema of the two tables created in this task

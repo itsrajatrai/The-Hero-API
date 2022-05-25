@@ -1,5 +1,30 @@
 # Habuild_Problem01 ( Node Js assignment with PostgreSql )
 
+## Content of Readme File
+- Introduction
+- Dependencies
+- Route/endpoints details
+- Database Details
+
+
+### Introduction
+ The task was to create a Node Js assignment with PostgreSql database, which could fetch and update data. The access to the request and response must be protected using JWT authentication.
+
+### Dependencies needed
+<pre>
+dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3" 
+</pre>
+
+### Route/endpoints details
+
+### Database Details
 Schema of the two tables created in this task
 
 ![Untitled](https://user-images.githubusercontent.com/61858752/170113363-cb6835cf-cea5-461b-b0c5-c8cba51e559f.png)

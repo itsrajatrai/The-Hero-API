@@ -30,11 +30,15 @@ npm install
 </pre>
 
 ## File Details
--index.js: This is the main file. It caontins all the routes calls.
--auth.js: This file contains all the authentication mechanism and protected routes request.
--DbQueries.js- This file contains the database request handling.
--config.js- This file is to generate the secret token for storing in .env file.
+<pre>
+index.js: This is the main file. It caontins all the routes calls.
 
+auth.js: This file contains all the authentication mechanism and protected routes request.
+
+DbQueries.js: This file contains the database request handling.
+
+config.js: This file is to generate the secret token for storing in .env file.
+</pre>
 
 ## Route/endpoints details
 

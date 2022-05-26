@@ -3,6 +3,7 @@
 ## Content of Readme File
 - Introduction
 - Dependencies
+- File Details
 - Route/endpoints details
 - Database Details
 
@@ -27,6 +28,13 @@ yarn install
 or
 npm install
 </pre>
+
+## File Details
+-index.js: This is the main file. It caontins all the routes calls.
+-auth.js: This file contains all the authentication mechanism and protected routes request.
+-DbQueries.js- This file contains the database request handling.
+-config.js- This file is to generate the secret token for storing in .env file.
+
 
 ## Route/endpoints details
 
@@ -69,7 +77,7 @@ Response Body:
 
 ### To Fetch Topics and Rankings ( app.get('/ranking',pr,db.getranking) )
 
-Request URL: http://localhost:8000/ranking?token
+Request URL: http://localhost:8000/ranking?
 
 **Status: 401 Unauthorised ( When token is expired / not varified )**
 
@@ -85,6 +93,8 @@ Response Body:
 </pre>
 
 **Status: 200 OK ( When authetication succeeds and Ranking is Displayed )**
+
+Request URL: http://localhost:8000/ranking?token
 
 Request Body :
 <pre>

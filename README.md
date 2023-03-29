@@ -1,4 +1,4 @@
-# THE HEALTH API ( Node Js assignment with PostgreSql )
+# THE HERO API ( Node Js assignment with PostgreSql )
 
 ## Content of Readme File
 - Introduction
